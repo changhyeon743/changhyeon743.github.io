@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on 창현의 생각</title>
+    <title>Blogs on 이창현</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blogs on 창현의 생각</description>
+    <description>Recent content in Blogs on 이창현</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <copyright>Copyright © 2025, Changhyun LEE.</copyright>
     <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/hello-world/</link>
+      <title>개발자를 위한 비판적 사고의 정의</title>
+      <link>http://localhost:1313/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B9%84%ED%8C%90%EC%A0%81-%EC%82%AC%EA%B3%A0%EC%9D%98-%EC%A0%95%EC%9D%98/</link>
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hello-world/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m helloing- the world&lt;/p&gt;</description>
+      <guid>http://localhost:1313/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B9%84%ED%8C%90%EC%A0%81-%EC%82%AC%EA%B3%A0%EC%9D%98-%EC%A0%95%EC%9D%98/</guid>
+      <description>&lt;p&gt;개발자는 무엇인가?&#xA;선린인터넷고등학교 소프트웨어학을 졸업했습니다.&lt;/p&gt;&#xA;&lt;p&gt;대한민국 해군 소프트웨어 개발병을 전역했습니다.&lt;/p&gt;&#xA;&lt;p&gt;공간정보공학과 철학을 서울시립대학에서 공부합니다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,12 +1,12 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://example.com"
+baseURL = "https://changhyeon743.github.io"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "창현의 생각"
+title = "이창현"
 author = "Changhyun LEE"
 copyright = "Copyright © 2025, Changhyun LEE."
 languageCode = "ko-KR"
@@ -49,7 +49,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  # dateFormat = "2006-01-02"
+  dateFormat = "2006-01-02"
 
 [caches]
   [caches.images]
