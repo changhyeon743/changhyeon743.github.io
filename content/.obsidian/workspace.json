@@ -11,10 +11,14 @@
             "id": "a188a29c4bf10043",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "blog/씀과 배움의 이분법.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "씀과 배움의 이분법"
             }
           }
         ]
@@ -163,10 +167,10 @@
   },
   "active": "a188a29c4bf10043",
   "lastOpenFiles": [
-    "blog/가상공간에 건축하다.md",
+    "blog/한국식 집합주의의 긍정.md",
     "blog/씀과 배움의 이분법.md",
     "blog/인공지능 사용과 인간의 책임.md",
-    "blog/한국식 집합주의의 긍정.md",
+    "blog/가상공간에 건축하다.md",
     "blog/프로그래밍 언어.md",
     "blog/예술 작품을 보는 법.md",
     "blog/바이브코딩 비판.md",

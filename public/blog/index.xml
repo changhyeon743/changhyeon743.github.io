@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <copyright>Copyright © 2025, Changhyun LEE.</copyright>
-    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>씀과 배움의 이분법</title>
+      <link>http://localhost:1313/%EC%94%80%EA%B3%BC-%EB%B0%B0%EC%9B%80%EC%9D%98-%EC%9D%B4%EB%B6%84%EB%B2%95/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%EC%94%80%EA%B3%BC-%EB%B0%B0%EC%9B%80%EC%9D%98-%EC%9D%B4%EB%B6%84%EB%B2%95/</guid>
+      <description>&lt;p&gt;LLM을 통해 내가 현재&lt;/p&gt;&#xA;&lt;p&gt;쓰고 있는지,&#xA;무언가를 배우고 있는지 이분법적으로 의식적으로 구분해야한다.&lt;/p&gt;&#xA;&lt;p&gt;씀에 따라, 배움에 따라오는&#xA;인공지능 사용과 인간의 책임&lt;/p&gt;&#xA;&lt;p&gt;책임의 정의&lt;/p&gt;</description>
+    </item>
     <item>
       <title>가상공간에 건축하다</title>
       <link>http://localhost:1313/%EA%B0%80%EC%83%81%EA%B3%B5%EA%B0%84%EC%97%90-%EA%B1%B4%EC%B6%95%ED%95%98%EB%8B%A4/</link>
