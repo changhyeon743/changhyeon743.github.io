@@ -6,7 +6,7 @@ baseURL = "https://changhyeon743.github.io"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "이창현"
+title = "가상공간에 공예하기"
 author = "Changhyun LEE"
 copyright = "Copyright © 2025, Changhyun LEE."
 languageCode = "ko-KR"
