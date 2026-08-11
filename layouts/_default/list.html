@@ -1,0 +1,21 @@
+{{ define "main" }}
+<content>
+  <ul class="blog-posts">
+    {{ range .Pages }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ with .Params.category }}<small class="cat-label">{{ . }}</small>{{ end }}
+    </li>
+    {{ else }}
+    <li>글 없음</li>
+    {{ end }}
+  </ul>
+</content>
+{{ end }}

@@ -1,9 +1,10 @@
 +++
 title= "Philosophy eats AI"
 date= 2025-01-20
-tags= ["post"]
+category= "생각"
 draft= true
 +++
+
 
 > 참고: ["Philosophy Eats AI"](https://sloanreview.mit.edu/article/philosophy-eats-ai/) — "AI's ability to create value rests on the philosophy determining how and what it learns."
 

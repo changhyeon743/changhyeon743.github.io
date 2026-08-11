@@ -1,9 +1,10 @@
 +++
 title= "Pensées"
 date= 2026-05-15
-tags= ["post"]
-draft= false
+category= "생각"
+draft= true
 +++
+
 
 **1.**
 
