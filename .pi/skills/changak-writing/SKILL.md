@@ -16,7 +16,7 @@ seapy.com 처럼 **글 목록 하나만 있는, 꾸밈 없는 미니멀 블로�
 - "개인 생각을 적는 공간입니다" 수준의 겸손함.
 - 짧을수록 좋음. 길어야 3~5문단.
 
-**기술 스택:** 이 repo = Hugo (`hugo-bearblog` 테마) + Obsidian 볼트(`content/`에 내장) + GitHub / Cloudflare Pages 자동 배포.
+**기술 스택:** 이 repo = Hugo (`hugo-bearblog` 테마) + Obsidian 볼트(`content/`에 내장) + GitHub Actions(`.github/workflows/hugo.yaml`) → **GitHub Pages** 자동 배포. (Cloudflare 아님)
 
 ---
 
@@ -46,15 +46,15 @@ hugo server -D
 # http://localhost:1313
 ```
 
-### 3. 발행 (Cloudflare Pages가 자동 재빌드)
+### 3. 발행
 
 ```bash
 git add -A
 git commit -m "publish: <제목>"
-git push origin main
+git push origin master
 ```
 
-푸시 후 1~2분이면 `https://changhyeon743.github.io`에 반영됨.
+가본은 브랜치가 `master`다. push되면 GitHub Actions(`hugo.yaml`)가 Hugo를 빌드한 뒤 GitHub Pages에 자동 배포한다. 반영까지 1~2분.
 
 ---
 
