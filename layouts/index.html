@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ .Content }}
+<h3>글 목록</h3>
+<ul class="blog-posts">
+  {{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
