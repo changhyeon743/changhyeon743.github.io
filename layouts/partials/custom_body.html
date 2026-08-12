@@ -1,0 +1,22 @@
+<script>
+  // 본문 텍스트의 (괄호 안 내용)을 <small>로 감싼다. 코드 블록은 건드리지 않음.
+  // ponytail: 같은 텍스트 노드 안에서 여닫는 괄호만 처리 — 링크·강조를 가로지르는 괄호는 그대로 둠
+  document.querySelectorAll('main p, main li, main blockquote').forEach(function (el) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        return n.parentNode.closest('code, pre, small')
+          ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      if (!/\([^()]*\)/.test(node.nodeValue)) return;
+      var span = document.createElement('span');
+      span.innerHTML = node.nodeValue
+        .replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; })
+        .replace(/\([^()]*\)/g, function (m) { return '<small>' + m + '</small>'; });
+      node.parentNode.replaceChild(span, node);
+    });
+  });
+</script>
