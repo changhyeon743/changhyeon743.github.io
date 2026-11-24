@@ -4,7 +4,7 @@
 <p>
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}'>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+      {{ .Date.Format (cond (eq .Section "experience") "2006" (default "2006-01-02" site.Params.dateFormat)) }}
     </time>
   </i>
 </p>
