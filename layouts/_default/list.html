@@ -1,19 +1,9 @@
 {{ define "main" }}
 <content>
+  {{ if eq .Kind "term" }}<h3>{{ .Title }}</h3>{{ end }}
   <ul class="blog-posts">
     {{ range .Pages }}
-    <li>
-      <span>
-        <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}'>
-            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-          </time>
-        </i>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      {{ with .Params.category }}<small class="cat-label">{{ . }}</small>{{ end }}
-      {{ if .Params.ai }}<small class="cat-label">AI generated</small>{{ end }}
-    </li>
+    {{ partial "post-item.html" . }}
     {{ else }}
     <li>글 없음</li>
     {{ end }}

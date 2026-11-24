@@ -2,8 +2,9 @@
 {{ .Content }}
 <h3>글 목록</h3>
 <ul class="blog-posts">
-  {{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Params.ai }}<small class="cat-label">AI generated</small>{{ end }}</li>
+  {{ range first 5 (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+  {{ partial "post-item.html" . }}
   {{ end }}
 </ul>
+<p><a href="{{ "blog/" | relURL }}">전체 글 보기 →</a></p>
 {{ end }}
