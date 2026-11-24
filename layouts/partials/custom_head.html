@@ -3,4 +3,11 @@
   main p small, main li small, main blockquote small { color: #8a8a8a; }
   .cat-label{ text-decoration:none; margin-left:.6em; font-size:.7em; color:#8a8a8a; letter-spacing:.02em; line-height:2.2; }
   main content img{ display:block; margin:0 auto; max-height:70vh; width:auto; }
+  main content p:has(> img ~ img){ display:flex; gap:8px; justify-content:center; align-items:flex-start; }
+  main content p:has(> img ~ img) > img{ flex:1 1 0; min-width:0; height:auto; max-height:360px; object-fit:contain; margin:0; }
+  main content p:has(> img ~ img) > br{ display:none; }
+  @media (max-width:600px){
+    main content p:has(> img ~ img){ flex-wrap:wrap; }
+    main content p:has(> img ~ img) > img{ flex:0 0 calc(50% - 4px); }
+  }
 </style>

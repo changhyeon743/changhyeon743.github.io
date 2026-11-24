@@ -59,5 +59,4 @@ Swift( XCode ), node.js ( Visual Code ), AdobeXD
 다음은 관련 사진입니다.
 
 ![](/images/tistory/22-1.png)
-
 ![](/images/tistory/22-2.jpg)
