@@ -1,6 +1,6 @@
 +++
 title= "해군 SW개발병"
-date= 2021-01-01
+date= 2021-10-04T15:18:21+09:00
 draft= false
 source= "https://changhyeon743.tistory.com/85"
 +++

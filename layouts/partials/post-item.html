@@ -1,5 +1,5 @@
 <li>
-  <span><i><time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond (eq .Section "experience") "2006" (default "2006-01-02" site.Params.dateFormat)) }}</time></i></span>
+  <span><i><time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (default "2006-01-02" site.Params.dateFormat) }}</time></i></span>
   <a href="{{ .Permalink }}">{{ .Title }}</a>
   {{ range .GetTerms "tags" }}<a class="cat-label" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
 </li>
