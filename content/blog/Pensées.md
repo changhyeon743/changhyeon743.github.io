@@ -1,7 +1,6 @@
 +++
 title= "Pensées"
 date= 2026-05-15
-category= "생각"
 draft= false
 +++
 

@@ -1,7 +1,6 @@
 +++
 title= "Goodie"
 date= 2019-11-17T12:40:01+09:00
-category= "경험"
 draft= false
 source= "https://changhyeon743.tistory.com/24"
 +++

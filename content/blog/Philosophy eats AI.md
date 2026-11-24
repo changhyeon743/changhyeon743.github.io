@@ -1,7 +1,6 @@
 +++
 title= "Philosophy eats AI"
 date= 2025-01-20
-category= "생각"
 draft= false
 +++
 

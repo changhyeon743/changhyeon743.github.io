@@ -1,7 +1,6 @@
 +++
 title= "d/dx(ln(f(x)))"
 date= 2020-03-13T02:42:15+09:00
-category= "생각"
 draft= false
 source= "https://changhyeon743.tistory.com/31"
 slug= "d-dx(ln(f(x)))"

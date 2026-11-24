@@ -1,7 +1,6 @@
 +++
 title= "YoungB"
 date= 2019-11-16T10:56:10+09:00
-category= "경험"
 draft= false
 source= "https://changhyeon743.tistory.com/15"
 +++

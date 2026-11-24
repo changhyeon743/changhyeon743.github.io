@@ -1,7 +1,6 @@
 +++
 title= "Biary-책읽고,책일기"
 date= 2019-11-17T11:40:16+09:00
-category= "경험"
 draft= false
 source= "https://changhyeon743.tistory.com/22"
 +++
