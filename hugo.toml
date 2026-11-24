@@ -54,3 +54,6 @@ ignoreErrors = ["error-disable-taxonomy"]
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+  hardWraps = true
