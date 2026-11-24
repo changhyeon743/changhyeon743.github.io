@@ -1,6 +1,6 @@
 +++
 title= "Studify"
-date= 2019-11-18T22:36:28+09:00
+date= 2019-01-01
 draft= false
 source= "https://changhyeon743.tistory.com/25"
 +++
