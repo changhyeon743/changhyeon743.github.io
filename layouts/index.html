@@ -3,7 +3,7 @@
 <h3>글 목록</h3>
 <ul class="blog-posts">
   {{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Params.ai }}<small class="cat-label">AI 도움</small>{{ end }}</li>
   {{ end }}
 </ul>
 {{ end }}
